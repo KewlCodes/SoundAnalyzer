@@ -1,4 +1,11 @@
-data/
-__pycache__/
-.DS_Store
+# Ignore python virtual environments
 venv/
+.venv/
+
+# Ignore PyInstaller build and distribution outputs
+build/
+dist/
+*.spec
+
+# Ignore local audio data files to save space
+data/*.wav
